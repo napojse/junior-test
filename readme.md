@@ -1,6 +1,8 @@
 Junior PHP developer test
 ==========================
 
+Run project on localhost
+---------------
 - clone this repository
 - build containers with `docker-compose`
 - go to shell with `docker-compose exec php sh`
