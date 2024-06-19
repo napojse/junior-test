@@ -1,7 +1,7 @@
 Junior PHP developer test
 ==========================
 
-- download this repository
+- clone this repository
 - build containers with `docker-compose`
 - go to shell with `docker-compose exec php sh`
 - install composer dependencies
