@@ -18,9 +18,9 @@ Entities and repositories
 - create Doctrine repository for entity `LoginAttempt` into folder `app\Service`. The repository should be a descendant of `AbstractRepository`
 - run Doctrine command and create database tables: `php bin/console orm:schema-tool:create`
 
-Form
+UI
 -----------
-- create a table list of all `User` entities in `HomePresenter:default`
+- create a table list of all `User` entities in `HomePresenter:default`. Table should have columns Full name, Email and Attempts count (assumed all attempt counts to be zero)
 - create a Nette form for creating a new `User` record in `HomePresenter:create`. Form should have fields `fullName`, `email`, `password`. All fields should be required.
 - create a database record after form submit and redirect to default view
 
