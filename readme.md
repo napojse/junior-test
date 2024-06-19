@@ -23,3 +23,7 @@ Form
 - create a table list of all `User` entities in `HomePresenter:default`
 - create a Nette form for creating a new `User` record in `HomePresenter:create`. Form should have fields `fullName`, `email`, `password`. All fields should be required.
 - create a database record after form submit and redirect to default view
+
+Finished?
+-----------
+If you are finished, please commit your work into public Github repository. If you don't have Github account,  please send us the archived source code to our email.
