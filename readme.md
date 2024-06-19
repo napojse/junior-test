@@ -9,3 +9,8 @@ Run project on localhost
 - install composer dependencies
 - project should be ready on URL http://localhost/
 - create subdirs `napojse_test/log` and `napojse_test/temp`
+
+Issue
+-------------
+- create Doctrine entity `User` into folder `app\Entity` with attributes `$email` (required unique string), `$password` (required string), `$fullName` (optional nullable string)
+- create doctrine repository for entity `User` into folder `app\Service` 
