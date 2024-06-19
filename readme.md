@@ -16,6 +16,7 @@ Entities and repositories
 - create Doctrine repository for entity `User` into folder `app\Service`. The repository should be a descendant of `AbstractRepository`
 - create Doctrine entity `LoginAttempt` into folder `app\Entity` with attributes `$id` (auto increment), `$user` (many-to-one relation to entity `User`), `$createdAt` (required immutable date time). The repository should be a descendant of `AbstractEntity`
 - create Doctrine repository for entity `LoginAttempt` into folder `app\Service`. The repository should be a descendant of `AbstractRepository`
+- run Doctrine command and create database tables: `php bin/console orm:schema-tool:create`
 
 Form
 -----------
