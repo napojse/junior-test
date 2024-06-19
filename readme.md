@@ -26,4 +26,4 @@ UI
 
 Finished?
 -----------
-If you are finished, please commit your work into public Github repository. If you don't have Github account,  please send us the archived source code to our email.
+If you are finished, please commit your work into public Github repository. If you don't have Github account,  please send us the archived source code to our email. Thank you :)
